@@ -1,35 +1,30 @@
-**🎯 Features**
+# 2048 Game in Python
 
-Matrix-based board implementation
-Random tile generation (2 or 4)
-Move tiles in all four directions:
-Up
-Down
-Left
-Right
-Tile merging logic
-Win detection (2048 tile reached)
-Game over detection
-Simple terminal interface
+This is a simple Python implementation of the popular **2048 puzzle game** using a matrix-based approach.  
+The game runs in the terminal without any graphical interface.
 
-**🛠️ Technologies Used**
+## Project Files
 
-Python 3.x
-Random module
-Console/Terminal for gameplay
+- `logic.py` – Contains all game logic functions
+- `2048.py` – Main file to run the game
 
-**🚀 Future Improvements**
+## Objective
 
-Add score tracking
-GUI using Tkinter / Pygame
-Undo move feature
-Save and load game state
-Better board styling
-👨‍💻 Author
+Combine tiles with the same number to create a tile with the value **2048**.
 
-**Developed as a Python practice project to understand:**
+## Features
 
-2D Lists / Matrices
-Functions
-Game Logic
-Problem Solving
+- 4x4 game board
+- Move tiles in four directions
+- Merge same numbered tiles
+- Random tile generation
+- Win and game over detection
+- Terminal-based gameplay
+
+## How to Run
+
+1. Make sure Python is installed.
+2. Run the following command:
+
+```bash
+python 2048.py
